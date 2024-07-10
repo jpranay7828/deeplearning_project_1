@@ -14,10 +14,12 @@ def get_requirements(file_path:str)->List[str]:
     return requirements
 
 setup(
-    name= 'Xray',
-    version= 0.0.1,
+
+    name= "Xray",
+    version= "0.0.1",
     author="Pranay Joshi",
     author_email="jpranay7828@gmail.com",
-    install_requires = get_requirements(r"C:\\Users\\PILR\\deeplearning_project_1"),
-    package=find_packages()
-)
+    install_requires = get_requirements(r"C:\\Users\\PILR\\deeplearning_project_1\\requirements_dev.txt"),
+    package = find_packages()
+    
+    )
